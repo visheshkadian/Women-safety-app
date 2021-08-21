@@ -4,6 +4,7 @@
 • Technology used are Android studio, Java
 
 Screenshots:
-![Screenshot_20210820-210052_Woman Safety](https://user-images.githubusercontent.com/72352984/130309972-3e9013ec-035c-43e9-801c-9c584269a79e.jpg)
+![image](https://user-images.githubusercontent.com/72352984/130310053-ea2ca013-be67-4ec8-92a8-00b2c9de1e61.png)
+
 
 
