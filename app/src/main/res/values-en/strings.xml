@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Woman Safety</string>
+    <string name="text_map">map</string>
+    <string name="text_help">help</string>
+    <string name="text_sos">Additional help</string>
+    <string name="text_settings">customize</string>
+    <string name="text_info">help</string>
+    <string name="url_questionnaire_start">http://192.168.0.103:9090/api/tests/info</string>
+    <string name="url_questionnaire_description">http://192.168.0.103:9090/api/tests/info</string>
+    <string name="url_maps">http://192.168.0.103:9090/api/locations</string>
+    <string name="url_user_score">http://192.168.0.103:9090/api/tests/score/?phone=</string>
+    <string name="text_questionnaire">Select a survey</string>
+    <string name="notify_sms_sent">Select poll message sent!</string>
+    <string name="notify_sms_not_sent">Couldn\'t send a message!</string>
+    <string name="notify_sms_no_service">There is no mobile connection</string>
+    <string name="notify_sms_airplane_mode">Airplane mode turned on</string>
+    <string name="violence_sms_alert">I\'m in danger! Please help!</string>
+</resources>

@@ -1,0 +1,149 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">Woman Safety</string>
+    <!--Strings for BotoomNavigationView-->
+    <string name="text_map" translatable="false">map</string>
+    <string name="text_help" translatable="false">help</string>
+    <string name="text_sos" translatable="false">Additional help</string>
+    <string name="text_settings" translatable="false">customize</string>
+    <string name="text_info" translatable="false">help</string>
+
+    <!--Strings for JSON parsing-->
+    <string name="url_questionnaire_survey" translatable="false">
+        http://192.168.0.103:9090/api/tests/questions/?id=</string>
+    <string name="url_questionnaire_start" translatable="false">http://192.168.0.103:9090/api/tests/info</string>
+    <string name="url_questionnaire_instruction" translatable="false">
+        http://192.168.0.103:9090/api/tests/instruction/?count=</string>
+    <string name="url_questionnaire_description" translatable="false">http://192.168.0.103:9090/api/tests/info</string>
+    <string name="url_maps" translatable="false">http://192.168.0.103:9090/api/locations</string>
+    <string name="url_user_score" translatable="false">http://192.168.0.103:9090/api/tests/score/?phone=</string>
+
+    <!--Strings for MainActivity-->
+    <string name="text_questionnaire" translatable="false">Select a survey</string>
+    <string name="notify_sms_sent" translatable="false">Select poll message sent!</string>
+    <string name="notify_sms_not_sent" translatable="false">Couldn\'t send a message!</string>
+    <string name="notify_sms_no_service" translatable="false">There is no mobile connection</string>
+    <string name="notify_sms_airplane_mode" translatable="false">Airplane mode turned on</string>
+    <string name="violence_sms_alert" translatable="false">I\'m in danger! Please help!</string>
+    <string name="free_violence_hotline" translatable="false">066</string>
+    <string name="maps_sms_location" translatable="false">I\'m here: http://maps.google.com/</string>
+    <string name="permission_accepted" translatable="false">Permission granted</string>
+    <string name="permission_not_accepted" translatable="false">Permission denied</string>
+
+    <!--Strings for SettingsFragment-->
+    <string name="settings_title" translatable="false">SOS button</string>
+    <string name="choose_number" translatable="false">Select the number to call</string>
+    <string name="number_summary" translatable="false">A call will be made to it after pressing the SOS button</string>
+    <string name="contact_summary" translatable="false">You can use the added number to make a call</string>
+    <string name="add_contact" translatable="false">Add a contact from the phone book</string>
+    <string name="save_number" translatable="false">Save the selected number</string>
+    <string name="print_number" translatable="false">Enter your mobile phone number</string>
+    <string name="number_not_selected" translatable="false">Number not selected</string>
+    <string name="number_selected" translatable="false">Number selected</string>
+    <string name="notify_select_number" translatable="false">Select a contact</string>
+    <string name="before_add_number" translatable="false">Before selecting a number, add it from the phone book</string>
+    <string name="add_widget_summary" translatable="false">To quickly call the selected number without opening the app. Click for more instructions</string>
+    <string name="add_widget_title" translatable="false">Add a widget to your home screen</string>
+    <string name="how_to_add_widget" translatable="false">
+       * Go to the Home screen and hold your finger on the free area.
+\ n * Tap the "widgets" icon;
+\n * in the menu that opens, find the section with the app name.
+\ n * hold the widget. Home screen images will appear.
+Drag the widget to the desired location
+\ n• raise your finger \n \ after these actions, the widget is ready to use!</string>
+
+    <!--Strings for ButtonFragment-->
+    <string name="sos_button_text" translatable="false">In case of a threat to your life click on the button</string>
+    <string name="sos_description" translatable="false">Help call button</string>
+    <string name="сall_police" translatable="false">Call the police</string>
+    <string name="police_number" translatable="false">100</string>
+
+    <!--Strings for QuestionnaireFragment-->
+    <string name="future_survey" translatable="false">Follow-up surveys in development</string>
+    <string name="start_survey" translatable="false">Start the test</string>
+    <string name="questionnaire_screen_title" translatable="false">Select a poll</string>
+    <string name="question_numbers" translatable="false">/15</string>
+    <string name="finish_test_button" translatable="false">Complete the test</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+    <string name="null_text" tools:ignore="TypographyEllipsis" translatable="false">Loading continues...</string>
+    <string name="test_often" translatable="false">Often</string>
+    <string name="test_seldom" translatable="false">Sometimes</string>
+    <string name="test_never" translatable="false">Never</string>
+    <string name="violence_info" translatable="false">Never learn more about the factors of domestic violence</string>
+
+    <!--Strings for Onboarding-->
+    <string name="title_call" translatable="false">Be sure that you will be helped</string>
+    <string name="title_test" translatable="false">Be sure that you are not in any danger</string>
+    <string name="title_map" translatable="false">Be sure that you are safe</string>
+    <string name="onboarding_button" translatable="false">Continue</string>
+    <string name="description_call" translatable="false">At any time, you can call or send a message with your location if something threatens your life</string>
+    <string name="description_test" translatable="false">If there are acts of bullying, restrictions on your rights, or other actions that may threaten your life in your family, then go to the survey block and make sure that these actions are legitimate</string>
+    <string name="description_map" translatable="false">Even if you don\'t know where to go in case of a threat in your own home, we are always ready to help and provide overnight accommodation or assistance in the places indicated on the map</string>
+
+    <!--Strings for QuestionnaireViolenceInfoFragment-->
+    <string name="description_violence" translatable="false">&amp; # 160; &amp; # 160; domestic violence is such actions of one family member towards another that violate human civil rights and freedoms, or that lead to physical, mental, or moral suffering.</string>
+    <string name="physical_violence_description" translatable="false">
+       * slaps
+\ n * back of the head
+\ n * biting
+\ n• zdushuvannya
+\ n• moxibustion
+forced drinking or eating something that is harmful to your health (alcohol, drugs)
+\ n• beating</string>
+    <string name="psychological_violence_description" translatable="false">
+       * verbal abuse, shouting
+\ n• humiliation, baseless criticism
+\ n * intimidation, threats
+\ n• blackmail, harassment
+\ n * isolation
+\n• making non-negotiable decisions by one family member
+\ n• instilling feelings of guilt, uncertainty
+\ n * prohibition to see/communicate with relatives or friends</string>
+    <string name="sex_violence_description" translatable="false">
+       * forced sexual contact in an undesirable situation or time
+\ n• coercion to undesirable forms of sexual contact
+\ n• forcing the abuser to observe sexual contacts with others
+\ n * peeping
+\ n * engaging in the porn industry or sex * business
+\ n * rape </string>
+    <string name="economic_violence_description" translatable="false">
+        * restrictions on access to your own funds
+\ n• infringement of freedom of use of funds
+\ n• deprivation of housing, clothing and other property or funds to which a person has a legal right
+\ n * prohibition to study or choose a place of work</string>
+    <string name="economic_violence_title" translatable="false">Economic violence</string>
+    <string name="sex_violence_title" translatable="false">sexual assault</string>
+    <string name="psychological_violence_title" translatable="false">Psychological abuse</string>
+    <string name="physical_violence_title" translatable="false">Physical violence</string>
+
+    <!--Strings for ReferenceFragment-->
+    <string name="free_hotline_title" translatable="false">Free National Hot
+domestic violence prevention line</string>
+    <string name="free_hotline_reference" translatable="false">(066) 278–96&#8211;51</string>
+    <string name="social_help_lviv_title" translatable="false">Mobile team socially &amp; #8211;psychological assistance Lviv</string>
+    <string name="social_help_lviv_number1" translatable="false">(066) 278–96&#8211;51</string>
+    <string name="social_help_lviv_number2" translatable="false">(063) 953–38&#8211;60</string>
+    <string name="social_help_chervonograd_title" translatable="false">Mobile team of social &amp; # 8211; psychological
+assistance to Sokal, Chervonograd, Chervonogradsky district</string>
+    <string name="social_help_chervonograd_number1" translatable="false">(066) 279–64&#8211;57</string>
+    <string name="social_help_chervonograd_number2" translatable="false">(063) 954–81&#8211;27</string>
+    <string name="social_help_zolochiv_title" translatable="false">Mobile team of social&#8211;psychological assistance</string>
+    <string name="social_help_zolochiv_number1" translatable="false">(066) 306&#8211;59&#8211;57</string>
+    <string name="social_help_zolochiv_number2" translatable="false">(063) 968&#8211;70&#8211;10</string>
+    <string name="social_help_zhidaciv_title" translatable="false">Mobile team of social &amp; # 8211; psychological
+zhidachiv aid and Zhidachevsky district
+</string>
+    <string name="control_of_work_family_social_protection_title" translatable="false">Department of Labor and Social Affairs\nfamily policy of the Department of social protection of the population of the Lviv regional state administration</string>
+    <string name="control_of_work_family_social_protection_number" translatable="false">(032) 255&#8211;46&#8211;59</string>
+    <string name="social_help_zhidaciv_number2" translatable="false">(063) 968&#8211;70&#8211;51</string>
+    <string name="social_help_zhidaciv_number1" translatable="false">(066) 306&#8211;59&#8211;78</string>
+    <string name="lviv_social_oblast_center_for_family_title" translatable="false">Lviv Regional Center for social services\nservices for families, children and youth</string>
+    <string name="lviv_social_oblast_center_for_family_number1" translatable="false">(032) 261&#8211;09&#8211;42</string>
+    <string name="lviv_social_oblast_center_for_family_number2" translatable="false">(032) 261&#8211;09&#8211;37</string>
+    <string name="lviv_oblast_social_psychological_center_title" translatable="false">Social &amp; # 8211; psychological center
+assistance in the Lviv region</string>
+    <string name="lviv_oblast_social_psychological_center_number1" translatable="false">(032) 237&#8211;99&#8211;20</string>
+    <string name="lviv_oblast_social_psychological_center_number2" translatable="false">(032) 237&#8211;99&#8211;27</string>
+    <string name="west_ukrainian_center_title" translatable="false">Women\'s perspectives</string>
+    <string name="west_ukrainian_center_number" translatable="false">(032) 295&#8211;50&#8211;60</string>
+    <string name="notify_sms_no_pdu" translatable="false">missing PDU</string>
+</resources>
